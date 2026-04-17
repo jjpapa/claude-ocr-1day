@@ -1,0 +1,16 @@
+.mcp.json
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 업로드 파일
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
